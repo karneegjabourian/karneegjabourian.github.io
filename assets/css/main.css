@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=leculier:300,900");
 @import url("font-awesome.min.css");
-@font-face {
-font-family: "leculier.regular";
-src: url("css/fonts/leculier.regular-webfont.ttf");
-src:
-url("css/fonts/leculier.regular-webfont.woff") format("woff"),
-url("css/fonts/leculier.regular-webfont.woff2") format("woff2");
-}
+@font-face { @font-face { font-family: Leculier; src: url('Leculier-Regular.otf'); }
+
 
 /*
 	Aerial by HTML5 UP
@@ -29,7 +24,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: leculier;
+	font: Leculier;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -107,7 +102,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'leculier', leculier;
+		font-family: 'Leculier', Leculier;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
