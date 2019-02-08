@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Sans-Serif:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-@font-face { @font-face { font-family: Leculier; src: url('Leculier-Regular.otf'); }
-
 
 /*
 	Aerial by HTML5 UP
@@ -24,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: Leculier;
+	font: inherit;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -101,8 +99,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000000;
-		font-family: 'Leculier', Leculier;
+		color: #fff;
+		font-family: 'Source Sans Pro', Leculier;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -291,7 +289,7 @@ input, select, textarea {
 
 	#bg {
 		background-size: 2250px auto;
-		width: 1000000px;
+		width: 6750px;
 	}
 
 /* Overlay */
@@ -963,7 +961,7 @@ input, select, textarea {
 
 		#bg {
 			background-size: 300px auto;
-			width: 100000px;
+			width: 900px;
 		}
 
 	/* Header */
