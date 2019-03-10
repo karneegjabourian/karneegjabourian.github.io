@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@font-face {
+    font-family: Leculier;
+    src: url("../karneegjabourian.github.io/assets/fonts/Leculier-Regular.ttf") format('truetype');
+    font-weight: Regular;
+    font-style: normal;
+}
 
 /*
 	Aerial by HTML5 UP
@@ -100,7 +106,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #555;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Leculier', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
