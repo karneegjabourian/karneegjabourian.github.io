@@ -6,6 +6,14 @@
     font-weight: Regular;
     font-style: normal;
 }
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('leculier-regular-webfont.woff') format('woff'),
+       url('leculier-regular-webfont.woff2') format('woff'),
+	     url('leculier-regular-webfont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
 
 /*
 	Aerial by HTML5 UP
@@ -106,7 +114,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000;
-		font-family: 'Leculier', sans-serif;
+		font-family: 'WebFont', leculier, sans-serif; }
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
