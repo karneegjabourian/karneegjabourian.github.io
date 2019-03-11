@@ -100,7 +100,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #222;
+		color: #000;
 		font-family: 'Leculier', sans-serif; }
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -722,7 +722,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		/* BG */
