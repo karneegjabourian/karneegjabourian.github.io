@@ -113,8 +113,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #000;
-		font-family: 'WebFont', leculier, sans-serif; }
+		color: #222;
+		font-family: 'WebFont', sans-serif; }
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
