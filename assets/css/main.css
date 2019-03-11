@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 @font-face {
-    font-family: Leculier;
-    src: url("../karneegjabourian.github.io/assets/fonts/Leculier-Regular.ttf") format('truetype');
+    font-family: 'Leculier';
+    src: url("../karneegjabourian.github.io/assets/fonts/Leculier-Regular.ttf") format('truetype'),
+   url("../karneegjabourian.github.io/assets/fonts/leculier-regular-webfont.woff") format('woff'),
+   url("../karneegjabourian.github.io/assets/fonts/leculier-regular-webfont.woff2") format('woff2'),
     font-weight: Regular;
     font-style: normal;
 }
@@ -11,7 +13,7 @@
 	src: url('WebFont.eot');
 	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
 	     url('leculier-regular-webfont.woff') format('woff'),
-       url('leculier-regular-webfont.woff2') format('woff'),
+       url('leculier-regular-webfont.woff2') format('woff2'),
 	     url('leculier-regular-webfont.ttf') format('truetype'),
 	     url('WebFont.svg#webfont') format('svg');
 
@@ -114,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #222;
-		font-family: 'WebFont', sans-serif; }
+		font-family: 'Leculier', sans-serif; }
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
