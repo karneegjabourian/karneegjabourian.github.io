@@ -1,21 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-@font-face {
-    font-family: 'Leculier';
-    src: url("../karneegjabourian.github.io/assets/fonts/Leculier-Regular.ttf") format('truetype'),
-   url("../karneegjabourian.github.io/assets/fonts/leculier-regular-webfont.woff") format('woff'),
-   url("../karneegjabourian.github.io/assets/fonts/leculier-regular-webfont.woff2") format('woff2'),
-    font-weight: Regular;
-    font-style: normal;
-}
-@font-face{
-	font-family: 'MyWebFont';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	     url('leculier-regular-webfont.woff') format('woff'),
-       url('leculier-regular-webfont.woff2') format('woff2'),
-	     url('leculier-regular-webfont.ttf') format('truetype'),
-	     url('WebFont.svg#webfont') format('svg');
+
 
 /*
 	Aerial by HTML5 UP
