@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@font-face { font-family: leculier; src: url('../fonts/Leculier-Regular.ttf'); }
 
 
 /*
@@ -547,12 +548,14 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			font-family: leculier, sans-serif;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			font-family: 'Open Sans', sans-serif;
 		}
 
 		#header nav {
@@ -656,6 +659,7 @@ input, select, textarea {
 				-webkit-touch-callout: none;
 				border: 0;
 				display: inline-block;
+				color: #000;
 			}
 
 				#header nav a:before {
@@ -664,7 +668,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px #000;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -681,7 +685,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: #000;
 					}
 
 				#header nav a:active {
@@ -691,7 +695,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: #000;
 					}
 
 				#header nav a span {
