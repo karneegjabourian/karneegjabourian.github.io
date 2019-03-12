@@ -342,7 +342,7 @@ input, select, textarea {
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-image: url("images/overlay-pattern.png"), url("images/overlay-pattern.png");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -976,7 +976,7 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1em;
+			font-size: 0.8em;
 		}
 
 		#header nav {
