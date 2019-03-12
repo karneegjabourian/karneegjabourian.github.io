@@ -97,12 +97,13 @@ input, select, textarea {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
+			-o-transition: none !important;
 			transition: none !important;
 		}
 
 	body, input, select, textarea {
 		color: #000;
-		font-family: 'Aerial', sans-serif; }
+		font-family: 'Aerial', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -113,6 +114,7 @@ input, select, textarea {
 		-moz-transition: border-color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
+		-o-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: inherit;
@@ -708,6 +710,7 @@ input, select, textarea {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
