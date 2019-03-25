@@ -1,50 +1,91 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Jekyll build mod and further hacks by https://github.com/vidhyav656
 -->
 <html>
-	<head>
-		<title>Karneeg Jabourian</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
 
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div> <!--
-			<div id="overlay"></div> -->
-			<div id="main">
+<head>
+    <title>Karneeg Jabourian</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Karneeg Jabourian</h1>
-						<p> Experience curator. &nbsp;&bull;&nbsp; Listener. &nbsp;&bull;&nbsp; Manipulator of sound.</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.facebook.com/karneegjabourian" class="icon fa-facebook"><span class="label">facebook</span></a></li>
-								<li><a href="https://www.instagram.com/karneegjabourian"class="icon fa-instagram"><span class="label">instagram</span></a></li>
-								<li><a href="https://www.soundcloud.com/karneegjabourian"class="icon fa-soundcloud"><span class="label">soundcloud</span></a></li>
-								<li><a href="https://www.mixcloud.com/karneegjabourian" class="icon fa-mixcloud"><span class="label">mixcloud</span></a></li>
-								<li><a href="mailto:info@karneegjabourian.com"class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css" />    
+    <link rel="stylesheet" href="assets/css/main.css" /> 
 
-				<!-- Footer -->
-					<footer id="footer">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                verticalCentered:false,
+                scrollingSpeed: 800,
+                css3:true,
+                normalScrollElementTouchThreshold: 1,
+                touchSensitivity: 4,
+                sectionSelector: '.section',
+                sectionsColor: ['#fe9b5d', '#5360c7', '#bf7243', '#fe9b5d'],
+                navigation: {
+                    'position': 'right',
+                    'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+                }
+            });
+        });
+    </script>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
 
-					</footer>
+<body>   
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+    <div id="pagepiling">
+        <div class="section" id="section1">
+        <div id="wrapper">
+        <div id="bg"></div>
+            <div id="main">
+            <!-- Header -->
+            <header id="header">
+                <h1>Karneeg Jabourian</h1>
+                <p> Experience curator. &nbsp;&bull;&nbsp; Listener. &nbsp;&bull;&nbsp; Manipulator of sound.</p>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.facebook.com/karneegjabourian" class="icon fa-facebook"><span class="label">facebook</span></a></li>
+                        <li><a href="https://www.instagram.com/karneegjabourian" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+                        <li><a href="https://www.soundcloud.com/karneegjabourian" class="icon fa-soundcloud"><span class="label">soundcloud</span></a></li>
+                        <li><a href="https://www.mixcloud.com/karneegjabourian" class="icon fa-mixcloud"><span class="label">mixcloud</span></a></li>
+                        <li><a href="mailto:info@karneegjabourian.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                    </ul>
+                </nav>                
+            </header>
+            <!-- Footer -->
+            <footer id="footer">
+            </footer>
+        </div>
+        </div>
+        </div>
+        <div class="section" id="section2">
+            <div id="main">
+                <header id="header-album">
+                    <!--  <h1>Karneeg Jabourian</h1>
+                     <p>"Player 1"</p> -->
+                     <a target="_blank" class="button" href="https://soundcloud.com/karneegjabourian/player-1-feat-newman">LISTEN NOW</a>               
+                    <span class="overlay" style="background-color: rgba(0,0,0, 0.2);"></span> 
+                </header>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div id="main">
+                <header id="header-album">
+                    <!--  <h1>Karneeg Jabourian</h1>
+                     <p>"I Wanna Know"</p> -->
+                     <a target="_blank" class="button" href="https://soundcloud.com/karneegjabourian/i-wanna-know-karneeg-remix">LISTEN NOW</a>                
+                    <span class="overlay" style="background-color: rgba(0,0,0, 0.2);"></span>  
+                </header>
+            </div>            
+        </div>
+    </div>
+
+</body>
+
 </html>
