@@ -1064,6 +1064,7 @@ body {
     /* Backgrounds will cover all the section
     * --------------------------------------- */
     #section1,
+    #section4,
     #section2,
     #section3{
         background-size: cover;
@@ -1102,6 +1103,11 @@ body {
     }
 
     @media (max-width: 768px){
+	    
+	 #section4{
+        background-size:contain;
+        background-size: 100%;
+	    }
         #section2{
         background-size:contain;
         background-size: 100%;
