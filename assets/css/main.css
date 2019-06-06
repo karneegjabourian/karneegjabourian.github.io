@@ -1070,6 +1070,16 @@ body {
     }
     #section1{
         /*background-image: url(../img/bg.jpg);*/
+	    
+	        }
+    #section4{
+    	background: rgb(254,155,93) url(../img/Livin-It-final.png) no-repeat center;
+        padding: 6% 0 0 0;
+        background-attachment: fixed;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
     }       
     #section2{           
         background: url(../img/player-1.png) no-repeat center, -webkit-linear-gradient(271deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
