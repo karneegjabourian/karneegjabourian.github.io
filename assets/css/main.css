@@ -165,7 +165,7 @@ body {
 
 /* BG */
 
-	#bg {	
+	#bg {
 	/* Set your background with this */
 		background: #FE9B5D url("../img/bg.jpg") bottom left;
 		/*background: -webkit-linear-gradient(89deg, rgba(255,211,184,1) 0%, rgba(255,94,24,1) 100%);
@@ -654,7 +654,7 @@ body {
 			color: rgba(254, 155, 93, 0.82);
 			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
 		}
-		
+
 /* Footer */
 
 	#footer {
@@ -1052,7 +1052,7 @@ body {
 
 		#header nav {
 			padding: 0 1em;
-		} 
+		}
 	}
 
 	/* Centered texts in each section
@@ -1071,25 +1071,23 @@ body {
     }
     #section1{
         /*background-image: url(../img/bg.jpg);*/
-	    
-	        }
+    }
     #section4{
-    	background: rgb(254,155,93) url(../img/Livin-It-final.png) no-repeat center;
+    	background: rgb(193, 29, 63) url(../img/Livin-It-final.png) no-repeat center;
         padding: 6% 0 0 0;
         background-attachment: fixed;
         height: 100%;
         position: absolute;
         width: 100%;
     }
-    }       
-    #section2{           
+    #section2{
         background: url(../img/player-1.png) no-repeat center, -webkit-linear-gradient(271deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
         background: url(../img/player-1.png) no-repeat center, -o-linear-gradient(271deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
         background: url(../img/player-1.png) no-repeat center, -ms-linear-gradient(271deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
         background: url(../img/player-1.png) no-repeat center, -moz-linear-gradient(271deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
         background: url(../img/player-1.png) no-repeat center, linear-gradient(179deg, rgba(17, 15, 20, 0.8) 0%, rgba(47, 43, 75, 0.8) 60%, rgba(72, 53, 40, 0.8) 72%, rgba(18, 14, 27, 0.8) 92%, rgba(15, 12, 18, 0.8) 100%);
         padding: 0 0 0 0;
-        background-attachment: fixed;            
+        background-attachment: fixed;
         position: absolute;
         width: 100%;
     }
@@ -1103,17 +1101,17 @@ body {
     }
 
     @media (max-width: 768px){
-	    
-	 #section4{
-        background-size:contain;
-        background-size: 100%;
-	    }
-        #section2{
-        background-size:contain;
-        background-size: 100%;
+
+		#section4{
+	        background-size:contain;
+	        background-size: 100%;
+		}
+	    #section2{
+		    background-size:contain;
+		    background-size: 100%;
 	    }
 	    #section3{
 	        background-size:contain;
-	        background-size: 100%;  
+	        background-size: 100%;
 	    }
 	}
