@@ -1073,7 +1073,11 @@ body {
         /*background-image: url(../img/bg.jpg);*/
     }
     #section4{
-    	background: rgb(193, 29, 63) url(../img/livin-it-final.png) no-repeat center;
+        background: url(../img/livin-it-final.png) no-repeat center, -webkit-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/livin-it-final.png) no-repeat center, -o-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/livin-it-final.png) no-repeat center, -ms-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/livin-it-final.png) no-repeat center, -moz-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/livin-it-final.png) no-repeat center, linear-gradient(46deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
         padding: 6% 0 0 0;
         background-attachment: fixed;
         height: 100%;
@@ -1092,7 +1096,12 @@ body {
         width: 100%;
     }
     #section3{
-    	background: rgb(254,155,93) url(../img/i-wanna-know.png) no-repeat center;
+	    
+	background: url(../img/i-wanna-know.png) no-repeat center, -webkit-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -o-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -ms-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -moz-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, linear-gradient(179deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%)
         padding: 6% 0 0 0;
         background-attachment: fixed;
         height: 100%;
