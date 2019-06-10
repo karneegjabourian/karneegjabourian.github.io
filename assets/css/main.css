@@ -1096,7 +1096,12 @@ body {
         width: 100%;
     }
     #section3{
-    	background: rgb(254,155,93) url(../img/i-wanna-know.png) no-repeat center;
+	    
+	background: url(../img/i-wanna-know.png) no-repeat center, -webkit-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -o-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -ms-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, -moz-linear-gradient(271deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%);
+	background: url(../img/i-wanna-know.png) no-repeat center, linear-gradient(179deg, rgb(175, 118, 161) 0%, rgb(191, 114, 67) 100%)
         padding: 6% 0 0 0;
         background-attachment: fixed;
         height: 100%;
