@@ -1066,11 +1066,27 @@ body {
     #section1,
     #section4,
     #section2,
-    #section3{
+    #section3,
+	#section5	{
         background-size: cover;
     }
     #section1{
         /*background-image: url(../img/bg.jpg);*/
+	    
+	    }
+    #section5{
+        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -webkit-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -o-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -ms-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -moz-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, linear-gradient(46deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
+        padding: 6% 0 0 0;
+        background-attachment: fixed;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }    
+	    
     }
     #section4{
         background: url(../img/livin-it-final.png) no-repeat center, -webkit-linear-gradient(44deg, rgb(42, 4, 4) 0%, rgb(89, 23, 85) 78%, rgb(112, 47, 41) 100%);
