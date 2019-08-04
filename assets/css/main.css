@@ -1074,11 +1074,11 @@ body {
         /*background-image: url(../img/bg.jpg);*/
     }
     #section5{
-        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -webkit-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
-        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -o-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
-        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -ms-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
-        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, -moz-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
-        background: url(../img/sugarhigh_remix3.jpeg) no-repeat center, linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
+        background: url(../img/sugarhigh_remix3 lowered.jpg) no-repeat center, -webkit-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
+        background: url(../img/sugarhigh_remix3 lowered.jpg) no-repeat center, -o-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
+        background: url(../img/sugarhigh_remix3 lowered.jpg) no-repeat center, -ms-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
+        background: url(../img/sugarhigh_remix3 lowered.jpg) no-repeat center, -moz-linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
+        background: url(../img/sugarhigh_remix3 lowered.jpg) no-repeat center, linear-gradient(115deg, rgba(247,214,197,1) 0%, rgba(213,98,139,1) 100%);
         padding: 6% 0 0 0;
         background-attachment: fixed;
         height: 100%;
