@@ -1120,6 +1120,32 @@ body {
 	    position: absolute;
 	    width: 100%;
     }
+    #section6{
+        background: url(../img/sunset-love-dark.jpg) no-repeat center, -webkit-linear-gradient(top, rgb(40, 34, 46) 0%, rgb(111, 46, 26) 40%, rgb(28, 36, 59) 100%);
+        background: url(../img/sunset-love-dark.jpg) no-repeat center, -o-linear-gradient(top, rgb(40, 34, 46) 0%, rgb(111, 46, 26) 40%, rgb(28, 36, 59) 100%);
+        background: url(../img/sunset-love-dark.jpg) no-repeat center, -ms-linear-gradient(top, rgb(40, 34, 46) 0%, rgb(111, 46, 26) 40%, rgb(28, 36, 59) 100%);
+        background: url(../img/sunset-love-dark.jpg) no-repeat center, -moz-linear-gradient(top, rgb(40, 34, 46) 0%, rgb(111, 46, 26) 40%, rgb(28, 36, 59) 100%);
+        background: url(../img/sunset-love-dark.jpg) no-repeat center, linear-gradient(top, rgb(40, 34, 46) 0%, rgb(111, 46, 26) 40%, rgb(28, 36, 59) 100%);
+        padding: 6% 0 0 0;
+        background-attachment: fixed;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    #section7{
+    	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        background: url(../img/what-lies-behind-cover.jpg) no-repeat center, -webkit-linear-gradient(350deg, rgb(30, 29, 37) 0%, rgb(42, 46, 73) 78%);
+        background: url(../img/what-lies-behind-cover.jpg) no-repeat center, -o-linear-gradient(350deg, rgb(30, 29, 37) 0%, rgb(42, 46, 73) 78%);
+        background: url(../img/what-lies-behind-cover.jpg) no-repeat center, -ms-linear-gradient(350deg, rgb(30, 29, 37) 0%, rgb(42, 46, 73) 78%);
+        background: url(../img/what-lies-behind-cover.jpg) no-repeat center, -moz-linear-gradient(350deg, rgb(30, 29, 37) 0%, rgb(42, 46, 73) 78%);
+        background: url(../img/what-lies-behind-cover.jpg) no-repeat center, linear-gradient(350deg, rgb(30, 29, 37) 0%, rgb(42, 46, 73) 78%);
+        padding: 6% 0 0 0;
+        background-attachment: fixed;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
 
     @media (max-width: 768px){
 
@@ -1137,6 +1163,14 @@ body {
 		    background-size: 100%;
 	    }
 	    #section3{
+	        background-size:contain;
+	        background-size: 100%;
+	    }
+	    #section6{
+	        background-size:contain;
+	        background-size: 100%;
+	    }
+	    #section7{
 	        background-size:contain;
 	        background-size: 100%;
 	    }
