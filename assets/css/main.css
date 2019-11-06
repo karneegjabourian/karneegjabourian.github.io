@@ -649,9 +649,59 @@ body {
 			color: rgba(255, 255, 255, 1);
 			box-shadow: rgba(254, 155, 93, 0.82) 0 0px 0px 2px inset;
 		}
-
+		
+		a.button-blue{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(64, 98, 191, 1) 0 0px 0px 2px inset;
+		}
+		
+		a.button-darkblue{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(32, 35, 70) 0 0px 0px 2px inset;
+		}
+		
+		a.button-pink{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(151, 22, 59, 1) 0 0px 0px 2px inset;
+		}
+		
+		a.button-babypink{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(156, 83, 129, 1) 0 0px 0px 2px inset;
+		}
+		
+		a.button-yellow{
+			color: rgba(255, 255, 255, 1);
+			box-shadow: rgba(164, 143, 50, 1) 0 0px 0px 2px inset;
+		}
+		
 		a.button:hover {
 			color: rgba(254, 155, 93, 0.82);
+			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
+		}
+		
+		a.button-blue:hover {
+			color: rgba(64, 98, 191, 1);
+			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
+		}
+		
+		a.button-darkblue:hover {
+			color: rgba(64, 98, 191, 1);
+			box-shadow: rgba(32, 35, 70) 0 80px 0px 2px inset;
+		}
+		
+		a.button-pink:hover {
+			color: rgba(151, 22, 59, 1);
+			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
+		}
+		
+		a.button-babypink:hover {
+			color: rgba(156, 83, 129, 1);
+			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
+		}
+		
+		a.button-yellow:hover {
+			color: rgba(164, 143, 50, 1);
 			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
 		}
 
