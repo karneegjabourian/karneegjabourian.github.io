@@ -657,22 +657,22 @@ body {
 		
 		a.button-darkblue{
 			color: rgba(255, 255, 255, 1);
-			box-shadow: rgba(32, 35, 70) 0 0px 0px 2px inset;
+			box-shadow: rgba(81, 89, 180, 1) 0 0px 0px 2px inset;
 		}
 		
 		a.button-pink{
 			color: rgba(255, 255, 255, 1);
-			box-shadow: rgba(151, 22, 59, 1) 0 0px 0px 2px inset;
+			box-shadow: rgba(246, 73, 98, 1) 0 0px 0px 2px inset;
 		}
 		
 		a.button-babypink{
 			color: rgba(255, 255, 255, 1);
-			box-shadow: rgba(156, 83, 129, 1) 0 0px 0px 2px inset;
+			box-shadow: rgba(255, 153, 237, 1) 0 0px 0px 2px inset;
 		}
 		
 		a.button-yellow{
 			color: rgba(255, 255, 255, 1);
-			box-shadow: rgba(164, 143, 50, 1) 0 0px 0px 2px inset;
+			box-shadow: rgba(245, 214, 76, 1) 0 0px 0px 2px inset;
 		}
 		
 		a.button:hover {
@@ -687,21 +687,21 @@ body {
 		
 		a.button-darkblue:hover {
 			color: rgba(64, 98, 191, 1);
-			box-shadow: rgba(32, 35, 70) 0 80px 0px 2px inset;
+			box-shadow: rgba(81, 89, 180, 1) 0 80px 0px 2px inset;
 		}
 		
 		a.button-pink:hover {
-			color: rgba(151, 22, 59, 1);
+			color: rgba(246, 73, 98, 1);
 			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
 		}
 		
 		a.button-babypink:hover {
-			color: rgba(156, 83, 129, 1);
+			color: rgba(255, 153, 237, 1);
 			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
 		}
 		
 		a.button-yellow:hover {
-			color: rgba(164, 143, 50, 1);
+			color: rgba(245, 214, 76, 1);
 			box-shadow: rgba(255, 255, 255, 1) 0 80px 0px 2px inset;
 		}
 
